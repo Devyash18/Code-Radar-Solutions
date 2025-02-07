@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
-    int a,b;
-    scanf("%d",&a);
+    long long int a,b;
+    scanf("%lld",&a);
     b= (a>>7)&1 ;
     if (b==1){
         printf("Set");
