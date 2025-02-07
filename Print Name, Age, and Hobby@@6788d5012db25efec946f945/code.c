@@ -7,9 +7,9 @@ int main(){
     scanf("%s",&age);
     scanf("%s",&hobby);
     scanf("%s %s %s",&name , &age , &hobby);
-    printf("name: %s" ,name);
-    printf("Age: %s" ,age);
-    printf("Hobby: %s" ,hobby);
+    printf("name: %s\n" ,name);
+    printf("Age: %s\n" ,age);
+    printf("Hobby: %s\n" ,hobby);
 
 
     return 0;
