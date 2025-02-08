@@ -13,6 +13,11 @@ int main (){
         printf("%d",a*b);
     }
     else if (sign == '/'){
+        if (b==0){
+            printf("error");
+        }else{
         printf("%d",a/b);
+        }
+
     }
 }
