@@ -5,10 +5,9 @@ int main(){
     // let greatest = a
     greatest = a;
     if (greatest <b){
-        greatest=b;
-         if (greatest < c){
+        greatest=b;}
+    if (greatest < c){
         greatest = c;
-    }
     }
 
     printf("%d",greatest);
