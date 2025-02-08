@@ -11,5 +11,6 @@ if (a>='a'&& a<='z'){
 else{
     printf("Not an alphabet");
 }
+return 0;
 
 }
