@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (){
-    float a , b, result ;
+    float a , b;
     char sign ;
     scanf("%d %d %c",&a,&b,&sign);
     if(sign=='+'){
