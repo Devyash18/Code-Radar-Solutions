@@ -8,7 +8,7 @@ int main(){
         greatest=b;
     }
     else if (greatest < c){
-        greatest = c
+        greatest = c;
     }
 
     printf("%d",greatest);
