@@ -13,7 +13,7 @@ int main(){
     if (a>'a'&&a<='z'){
         printf("Consonant");
     }
-    else{
+    else if {
         printf("Special Character");
     }
 
