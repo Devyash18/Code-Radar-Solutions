@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
     float a , b;
-    char sign[10] ;
+    char sign ;
     scanf("%d %d %c",&a,&b,&sign);
     if(sign=='+'){
         printf("%d",a+b);
