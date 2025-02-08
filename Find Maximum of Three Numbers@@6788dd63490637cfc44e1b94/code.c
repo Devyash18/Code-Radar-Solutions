@@ -6,7 +6,7 @@ int main(){
     greatest = a;
     if (greatest <b){
         greatest=b;
-    else if (greatest < c){
+         if (greatest < c){
         greatest = c;
     }
     }
