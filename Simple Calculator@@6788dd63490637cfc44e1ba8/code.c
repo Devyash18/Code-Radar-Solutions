@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main (){
-    float a , b;
+    int a , b;
     char sign ;
     scanf("%f %f %c",&a,&b,&sign);
-    if(sign=='+'){
+    if(sign == '+'){
         printf("%d",a+b);
     }
-    if (sign=='-'){
+    if (sign == '-'){
         printf("%d",a-b);
     }
-    if (sign=='*' ){
+    if (sign == '*' ){
         printf("%d",a*b);
     }
-    if (sign=='/'){
+    if (sign == '/'){
         printf("%d",a/b);
     }
 }
