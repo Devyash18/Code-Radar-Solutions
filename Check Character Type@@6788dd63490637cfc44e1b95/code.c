@@ -10,7 +10,7 @@ int main(){
     if (isdigit(a)){
         printf("Digit");
     }
-    if (a>'a'&&a<'z'){
+    if (a>'a'&&a<='z'){
         printf("Consonant");
     }
 
