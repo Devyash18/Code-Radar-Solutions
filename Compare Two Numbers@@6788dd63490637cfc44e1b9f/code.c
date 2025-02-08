@@ -9,6 +9,6 @@ int main (){
         printf("First");
     }
     else if (a<b){
-        prinf("Second");
+        printf("Second");
     }
 }
