@@ -10,10 +10,10 @@ int main(){
     if (isdigit(a)){
         printf("Digit");
     }
-    if (a>'a'&&a<='z'){
+    else if (a>'a'&&a<='z'){
         printf("Consonant");
     }
-    else if {
+    else {
         printf("Special Character");
     }
 
