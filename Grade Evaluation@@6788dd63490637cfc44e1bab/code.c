@@ -7,7 +7,7 @@ int main (){
         printf("Excellent");
         break;
         case B:
-        printf("Good")
+        printf("Good");
         break;
         case C:
         printf("Average");
