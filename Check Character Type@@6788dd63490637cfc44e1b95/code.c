@@ -9,7 +9,7 @@ int main(){
     }
     else if (isalpha(a)){
         char lower = tolower(a);
-    if (a=='a'|| a=='i'||a=='o'||a=='e'||a=='u'){
+    if (lower=='a'|| lower=='i'||lower=='o'||lower=='e'||lower=='u'){
         printf("Vowel");
     }else{
         printf("Consonant");
