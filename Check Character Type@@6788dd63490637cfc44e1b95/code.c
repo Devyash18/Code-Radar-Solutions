@@ -13,6 +13,9 @@ int main(){
     else if (a>'a'&&a<='z'){
         printf("Consonant");
     }
+    else if (a=='O'){
+        printf("Vowel");
+    }
     else {
         printf("Special Character");
     }
