@@ -5,6 +5,6 @@ int main (){
     b='*';
     scanf("%d",&a);
     for (int i = a;i>=1;i--){
-        printf("%d",i*'*'');
+        printf("%d",i*'*');
     }
 }
