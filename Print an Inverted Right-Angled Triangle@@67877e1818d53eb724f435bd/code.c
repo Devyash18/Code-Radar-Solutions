@@ -5,6 +5,7 @@ int main (){
     b='*';
     scanf("%d",&a);
     for (int i = a;i>=1;i--){
-        printf("%s\n",i*b);
+        i=i*b;
+        printf(i);
     }
 }
