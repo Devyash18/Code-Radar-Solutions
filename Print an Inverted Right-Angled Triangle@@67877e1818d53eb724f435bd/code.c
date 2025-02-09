@@ -3,6 +3,6 @@ int main (){
     int a;
     scanf("%d",&a);
     for (int i;i<=a;i++){
-        printf("%d",i);
+        printf("%d",i*'*');
     }
 }
