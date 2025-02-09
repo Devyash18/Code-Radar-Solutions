@@ -5,6 +5,9 @@ int main (){
     b='*';
     scanf("%d",&a);
     for (int i = a;i>=1;i--){
-        printf("%.*s\n ",i,"**********************");
+        for(int j = a ; j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
     }
 }
