@@ -4,13 +4,11 @@ void arrr(int size , int arr[],int key){
     for (int i =0;i<size;i++){
         if (arr[i]==key){
             printf("%d",i);
-            break;
-        }
-        else {
-            printf("-1");
+            return i;
         }
         }
-    }
+        return -1;
+        }
 
 int main (){
     int arr[100];
@@ -21,5 +19,11 @@ int main (){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&key);
-    arrr(size,arr,key);
+    result = arrr(size,arr,key);
+    if (result!=-1){
+        printf("%d",result);
+    }
+    else {
+        printf("%d",result);
+    }
 }
