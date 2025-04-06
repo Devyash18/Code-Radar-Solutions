@@ -5,7 +5,8 @@ void arrr(int size , int arr[],int key){
         if (arr[i]==key){
             printf("%d",i);
         }
-        else {
+        }
+        else{
             printf("-1");
         }
     }
