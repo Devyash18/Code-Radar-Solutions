@@ -11,7 +11,7 @@ void arrr(int size , int arr[],int key){
         }
         }
     }
-}
+
 int main (){
     int arr[100];
     int key ;
