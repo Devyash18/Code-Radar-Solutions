@@ -18,7 +18,7 @@ int main (){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&key);
-    result = arrr(size,arr,key);
+    int result = arrr(size,arr,key);
     if (result!=-1){
         printf("%d",result);
     }
