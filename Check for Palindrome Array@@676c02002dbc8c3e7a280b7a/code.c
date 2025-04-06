@@ -21,7 +21,7 @@ int main (){
     for (int i = 0;i<size;i++){
         scanf("%d",&arr[i]);
     }
-    result = palindrome(arr,size);
+    int result = palindrome(arr,size);
     if (result ==1){
         printf("YES");
     }
