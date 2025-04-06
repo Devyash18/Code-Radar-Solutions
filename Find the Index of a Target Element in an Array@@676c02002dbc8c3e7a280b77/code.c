@@ -8,7 +8,7 @@ void arrr(int size , int arr[],int key){
     }
 }
 int main (){
-    int arr[];
+    int arr[]={};
     int key ;
     int size ;
     scanf("%d",&size);
